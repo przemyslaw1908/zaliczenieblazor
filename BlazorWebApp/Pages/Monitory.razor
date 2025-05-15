@@ -1,0 +1,49 @@
+@page "/monitory"
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://unpkg.com/mvp.css"> 
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Sklep Komputer</title>
+        <meta name="description" content="">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="icon" href="icons/tv.svg" type="image/svg+xml">
+    </head>
+    <body class="bodycolor">
+        <div class="topnav">
+            <div id="nazwa">
+                <a href="/">
+                    <img src="icons/tv.svg" alt="Logo"> Sklep Komputer
+                </a>
+            </div>
+            <a href="/komputery">Komputery</a>
+            <a id="aktywne" href="/monitory">Monitory</a>
+            <a href="/myszki">Myszki</a>
+            <a href="/klawiatury">Klawiatury</a>
+            <input type="text" placeholder="Szukaj...">
+        </div>
+        <div class="produktynasubstronie">
+            <div>
+                <h2>Monitor 1</h2>
+                <img src="images/monitor1.png" alt="Monitor 1">
+                <p class="cena">Cena: 1 299zł</p>
+            </div>
+            <div>
+                <h2>Monitor 2</h2>
+                <img src="images/monitor2.png" alt="Monitor 2">
+                <p class="cena">Cena: 1 899zł</p>
+            </div>
+            <div>
+                <h2>Monitor 3</h2>
+                <img src="images/monitor3.png" alt="Monitor 3">
+                <p class="cena">Cena: 2 499zł</p>
+            </div>
+        </div>
+        @* <style>
+            @import "css/styles.css";
+        </style> *@
+    </body>
+</html>

@@ -1,0 +1,49 @@
+@page "/myszki"
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://unpkg.com/mvp.css"> 
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Sklep Komputer</title>
+        <meta name="description" content="">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="icon" href="icons/tv.svg" type="image/svg+xml">
+    </head>
+    <body class="bodycolor">
+        <div class="topnav">
+            <div id="nazwa">
+                <a href="/">
+                    <img src="icons/tv.svg" alt="Logo"> Sklep Komputer
+                </a>
+            </div>
+            <a href="/komputery">Komputery</a>
+            <a href="/monitory">Monitory</a>
+            <a id="aktywne" href="/myszki">Myszki</a>
+            <a href="/klawiatury">Klawiatury</a>
+            <input type="text" placeholder="Szukaj...">
+        </div>
+        <div class="produktynasubstronie">
+            <div>
+                <h2>Myszka 1</h2>
+                <img src="images/myszka1.png" alt="Myszka 1">
+                <p class="cena">Cena: 199zł</p>
+            </div>
+            <div>
+                <h2>Myszka 2</h2>
+                <img src="images/myszka2.png" alt="Myszka 2">
+                <p class="cena">Cena: 249zł</p>
+            </div>
+            <div>
+                <h2>Myszka 3</h2>
+                <img src="images/myszka3.png" alt="Myszka 3">
+                <p class="cena">Cena: 299zł</p>
+            </div>
+        </div>
+        @* <style>
+            @import "css/styles.css";
+        </style> *@
+    </body>
+</html>
